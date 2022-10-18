@@ -1,0 +1,237 @@
+body {
+  background:linear-gradient(to right, #ef99f8 0%, #1b1b1b 100%);
+}
+
+.container .row {
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .9);
+  overflow: hidden;
+  width: 90%;
+}
+
+.container .row .col .foto {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.container .row .col .foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+
+.container .row .col .foto img:hover {
+  transform: scale(1.2);
+}
+
+.container .row .colImg {
+  background-color: white;
+}
+
+.container .row .colDesk {
+  padding-top: 60px;
+}
+
+.container .row .col .deskripsi {
+  overflow: hidden;
+  float: left;
+}
+
+.container .row .colDesk .deskripsi .info {
+  line-height: 1.8;
+  color: black;
+  font-size: 16px;
+}
+
+.container .row .colDesk .deskripsi .price {
+  font-size: 23px;
+  font-weight: 500;
+  color: orange;
+}
+
+.container .row .colDesk .deskripsi .title {
+  margin: 0;
+}
+
+.container .row .colDesk .deskripsi .Cate {
+  color: grey;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container .row .colDesk .deskripsi button {
+  background-color: #eb4cfc;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.container .row .colDesk .deskripsi button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.container .row .colDesk .deskripsi .btn-bott a{
+  color: #eb4cfc;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  border-radius: 9px;
+}
+
+.container .row .colDesk .deskripsi .btn-bott a:hover{
+  color: orange;
+  background-color: #1b1b1b;
+}
+
+
+@media (max-width:768px) {
+  
+  .container .row {
+    width: 100%;
+  }
+    
+  .container .row .colImg {
+    overflow: hidden;
+  }
+
+  .container .row .col .foto {
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  .container .row .col .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .container .row .colDesk {
+    padding-top: 25px;
+  }
+
+  .container .row .colDesk .deskripsi .title {
+    font-size: 25px;
+  }
+
+  .container .row .colDesk .deskripsi .info {
+    line-height: 1.5;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .container .row .colDesk .deskripsi .price {
+    font-size: 21px;
+    font-weight: 500;
+    color: orange;
+  }
+  
+  .container .row .colDesk .deskripsi .title {
+    margin: 0;
+  }
+  
+  .container .row .colDesk .deskripsi .Cate {
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .container .row .colDesk .deskripsi button {
+    background-color: #eb4cfc;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+  .container .row .colDesk .deskripsi .btn-bott a{
+    color: #eb4cfc;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    border-radius: 9px;
+  }
+  
+
+
+}
+
+
+
+@media (max-width:450px) {
+
+  .container .row {
+    width: 95%;
+  }
+
+  .container .row .col .foto {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+  }
+  
+  .container .row .col .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+  .container .row .colDesk {
+    padding-top: 10px;
+  }
+
+  .container .row .colDesk .deskripsi .info {
+    line-height: 1.8;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .container .row .colDesk .deskripsi .price {
+    font-size: 23px;
+    font-weight: 500;
+    color: orange;
+  }
+  
+  .container .row .colDesk .deskripsi .title {
+    margin: 0;
+  }
+  
+  .container .row .colDesk .deskripsi .Cate {
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .container .row .colDesk .deskripsi button {
+    background-color: #eb4cfc;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+  .container .row .colDesk .deskripsi .btn-bott a{
+    color: #eb4cfc;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    border-radius: 9px;
+  }
+  
+
+  
+}
